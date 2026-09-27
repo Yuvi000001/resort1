@@ -35,6 +35,8 @@ Then check Nugen's alignment UI for its required file schema. Map each row to th
 
 For measured occupancy/demand prediction, collect date-aligned historical records containing local weather observations/forecasts and actual outcomes. Recommended outcome fields include occupancy, booking changes/cancellations, event attendance, restaurant covers, guest request volumes, staff attendance, and resource usage. Keep training and evaluation dates separate.
 
+For a 10-day synthetic demo fixture, run `npm run generate:weather-history:demo` from `backend/`. This writes `data/weather-resort-history-10d.synthetic.json` for the previous 10 completed UTC days, with clearly labelled mock weather and resort outcomes. It is only for UI, schema, and pipeline testing; never use it as observed history or to train/calibrate production models. Replace every value with date-aligned measured data before model training.
+
 ## Staylix inference integration gate
 
 Do not describe the Nugen model as integrated or deployed until the alignment succeeds and Nugen provides its supported inference contract. Required integration details:
@@ -46,3 +48,11 @@ Do not describe the Nugen model as integrated or deployed until the alignment su
 - model version and successful sample inference response
 
 Store credentials only in `backend/.env`. The eventual flow should be: weather provider + current resort context -> deployed aligned Nugen model -> validated structured prediction -> Staylix intelligence UI. Keep official severe-weather advisories separate from model recommendations.
+
+## Weather Digital Twin prototype
+
+The manager-only `/digital-twin` view currently reads current/hourly weather from Open-Meteo and operational context from Staylix. Set `RESORT_LOCATION_NAME`, `RESORT_LATITUDE`, and `RESORT_LONGITUDE` in `backend/.env` to the actual property coordinates; the included Goan coordinates are a visibly marked demo default. Public traveler signals use Bluesky's public search endpoint and are displayed as unverified context, not as forecast input.
+
+What-if outputs are an isolated, explainable heuristic simulation. They do not write bookings, occupancy, staffing, inventory, events, or other resort records. The existing occupancy regression supplies a baseline only; it is not a weather-trained model. Do not describe Nugen as integrated until its deployment and inference contract are available. Calibrated probabilities require date-aligned historical weather and actual resort outcomes. Follow official local alerts for safety decisions.
+
+Run the pure simulation checks from `backend/` with `npm run test:weather-digital-twin`.

@@ -1,0 +1,325 @@
+{
+  "dataset": "Staylix weather-resort aligned history",
+  "generatedAt": "2026-09-27T07:02:55.300Z",
+  "location": {
+    "name": "Demo Resort Location",
+    "latitude": 15.2993,
+    "longitude": 74.124
+  },
+  "synthetic": true,
+  "intendedUse": "UI demos, schema integration, and pipeline tests only. Never train or calibrate production predictions from these generated values.",
+  "outcomeDisclaimer": "Every weather and operational value below is invented for demonstration; none represents measured Staylix or resort outcomes.",
+  "recordCount": 10,
+  "records": [
+    {
+      "date": "2026-09-17",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 0,
+        "meanTemperatureC": 27,
+        "stormDurationHours": 0,
+        "peakWindKph": 8,
+        "illustrativeFloodDepthCm": 0
+      },
+      "operations": {
+        "occupancyPercent": 72,
+        "totalRooms": 70,
+        "occupiedRooms": 50,
+        "bookingsCreated": 8,
+        "bookingsCancelled": 1,
+        "inHouseGuestsEstimate": 100,
+        "outdoorGuestVisits": 84,
+        "estimatedGuestActivityShiftIndoorsPercent": 16,
+        "restaurantCovers": 126,
+        "publishedEventAttendance": 27,
+        "guestRequests": 19,
+        "staffScheduled": 24,
+        "staffAttended": 23,
+        "transportDelays": 0,
+        "energyUseKwh": 890,
+        "waterUseLitres": 4820,
+        "supplyAvailabilityIndex": 100
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 5,
+        "meanTemperatureC": 29,
+        "stormDurationHours": 0,
+        "peakWindKph": 11,
+        "illustrativeFloodDepthCm": 0
+      },
+      "operations": {
+        "occupancyPercent": 74,
+        "totalRooms": 70,
+        "occupiedRooms": 52,
+        "bookingsCreated": 10,
+        "bookingsCancelled": 1,
+        "inHouseGuestsEstimate": 104,
+        "outdoorGuestVisits": 79,
+        "estimatedGuestActivityShiftIndoorsPercent": 24,
+        "restaurantCovers": 131,
+        "publishedEventAttendance": 25,
+        "guestRequests": 21,
+        "staffScheduled": 24,
+        "staffAttended": 24,
+        "transportDelays": 1,
+        "energyUseKwh": 930,
+        "waterUseLitres": 4960,
+        "supplyAvailabilityIndex": 99
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 18,
+        "meanTemperatureC": 28,
+        "stormDurationHours": 1,
+        "peakWindKph": 22,
+        "illustrativeFloodDepthCm": 0
+      },
+      "operations": {
+        "occupancyPercent": 71,
+        "totalRooms": 70,
+        "occupiedRooms": 50,
+        "bookingsCreated": 7,
+        "bookingsCancelled": 2,
+        "inHouseGuestsEstimate": 100,
+        "outdoorGuestVisits": 66,
+        "estimatedGuestActivityShiftIndoorsPercent": 34,
+        "restaurantCovers": 135,
+        "publishedEventAttendance": 21,
+        "guestRequests": 25,
+        "staffScheduled": 25,
+        "staffAttended": 23,
+        "transportDelays": 2,
+        "energyUseKwh": 970,
+        "waterUseLitres": 5010,
+        "supplyAvailabilityIndex": 96
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 42,
+        "meanTemperatureC": 26,
+        "stormDurationHours": 3,
+        "peakWindKph": 35,
+        "illustrativeFloodDepthCm": 2
+      },
+      "operations": {
+        "occupancyPercent": 68,
+        "totalRooms": 70,
+        "occupiedRooms": 48,
+        "bookingsCreated": 6,
+        "bookingsCancelled": 3,
+        "inHouseGuestsEstimate": 96,
+        "outdoorGuestVisits": 41,
+        "estimatedGuestActivityShiftIndoorsPercent": 57,
+        "restaurantCovers": 143,
+        "publishedEventAttendance": 13,
+        "guestRequests": 31,
+        "staffScheduled": 25,
+        "staffAttended": 22,
+        "transportDelays": 5,
+        "energyUseKwh": 1040,
+        "waterUseLitres": 5180,
+        "supplyAvailabilityIndex": 91
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 65,
+        "meanTemperatureC": 25,
+        "stormDurationHours": 5,
+        "peakWindKph": 48,
+        "illustrativeFloodDepthCm": 8
+      },
+      "operations": {
+        "occupancyPercent": 66,
+        "totalRooms": 70,
+        "occupiedRooms": 46,
+        "bookingsCreated": 4,
+        "bookingsCancelled": 5,
+        "inHouseGuestsEstimate": 92,
+        "outdoorGuestVisits": 26,
+        "estimatedGuestActivityShiftIndoorsPercent": 72,
+        "restaurantCovers": 149,
+        "publishedEventAttendance": 8,
+        "guestRequests": 39,
+        "staffScheduled": 26,
+        "staffAttended": 21,
+        "transportDelays": 9,
+        "energyUseKwh": 1190,
+        "waterUseLitres": 5460,
+        "supplyAvailabilityIndex": 83
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 12,
+        "meanTemperatureC": 31,
+        "stormDurationHours": 0,
+        "peakWindKph": 14,
+        "illustrativeFloodDepthCm": 0
+      },
+      "operations": {
+        "occupancyPercent": 70,
+        "totalRooms": 70,
+        "occupiedRooms": 49,
+        "bookingsCreated": 9,
+        "bookingsCancelled": 2,
+        "inHouseGuestsEstimate": 98,
+        "outdoorGuestVisits": 68,
+        "estimatedGuestActivityShiftIndoorsPercent": 31,
+        "restaurantCovers": 139,
+        "publishedEventAttendance": 22,
+        "guestRequests": 24,
+        "staffScheduled": 25,
+        "staffAttended": 24,
+        "transportDelays": 1,
+        "energyUseKwh": 1130,
+        "waterUseLitres": 5390,
+        "supplyAvailabilityIndex": 98
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 0,
+        "meanTemperatureC": 33,
+        "stormDurationHours": 0,
+        "peakWindKph": 10,
+        "illustrativeFloodDepthCm": 0
+      },
+      "operations": {
+        "occupancyPercent": 73,
+        "totalRooms": 70,
+        "occupiedRooms": 51,
+        "bookingsCreated": 11,
+        "bookingsCancelled": 1,
+        "inHouseGuestsEstimate": 102,
+        "outdoorGuestVisits": 91,
+        "estimatedGuestActivityShiftIndoorsPercent": 11,
+        "restaurantCovers": 145,
+        "publishedEventAttendance": 29,
+        "guestRequests": 28,
+        "staffScheduled": 26,
+        "staffAttended": 25,
+        "transportDelays": 0,
+        "energyUseKwh": 1280,
+        "waterUseLitres": 5710,
+        "supplyAvailabilityIndex": 100
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 28,
+        "meanTemperatureC": 30,
+        "stormDurationHours": 2,
+        "peakWindKph": 28,
+        "illustrativeFloodDepthCm": 1
+      },
+      "operations": {
+        "occupancyPercent": 69,
+        "totalRooms": 70,
+        "occupiedRooms": 48,
+        "bookingsCreated": 6,
+        "bookingsCancelled": 3,
+        "inHouseGuestsEstimate": 96,
+        "outdoorGuestVisits": 49,
+        "estimatedGuestActivityShiftIndoorsPercent": 49,
+        "restaurantCovers": 151,
+        "publishedEventAttendance": 16,
+        "guestRequests": 33,
+        "staffScheduled": 25,
+        "staffAttended": 22,
+        "transportDelays": 4,
+        "energyUseKwh": 1080,
+        "waterUseLitres": 5320,
+        "supplyAvailabilityIndex": 94
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 90,
+        "meanTemperatureC": 24,
+        "stormDurationHours": 8,
+        "peakWindKph": 70,
+        "illustrativeFloodDepthCm": 18
+      },
+      "operations": {
+        "occupancyPercent": 61,
+        "totalRooms": 70,
+        "occupiedRooms": 43,
+        "bookingsCreated": 2,
+        "bookingsCancelled": 8,
+        "inHouseGuestsEstimate": 86,
+        "outdoorGuestVisits": 9,
+        "estimatedGuestActivityShiftIndoorsPercent": 90,
+        "restaurantCovers": 158,
+        "publishedEventAttendance": 3,
+        "guestRequests": 52,
+        "staffScheduled": 27,
+        "staffAttended": 19,
+        "transportDelays": 15,
+        "energyUseKwh": 1330,
+        "waterUseLitres": 5890,
+        "supplyAvailabilityIndex": 73
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "recordType": "synthetic_demo_only",
+      "weather": {
+        "source": "synthetic scenario; not an observed weather record",
+        "rainfallMm24h": 8,
+        "meanTemperatureC": 28,
+        "stormDurationHours": 0,
+        "peakWindKph": 9,
+        "illustrativeFloodDepthCm": 0
+      },
+      "operations": {
+        "occupancyPercent": 70,
+        "totalRooms": 70,
+        "occupiedRooms": 49,
+        "bookingsCreated": 10,
+        "bookingsCancelled": 2,
+        "inHouseGuestsEstimate": 98,
+        "outdoorGuestVisits": 76,
+        "estimatedGuestActivityShiftIndoorsPercent": 22,
+        "restaurantCovers": 142,
+        "publishedEventAttendance": 24,
+        "guestRequests": 23,
+        "staffScheduled": 25,
+        "staffAttended": 24,
+        "transportDelays": 1,
+        "energyUseKwh": 990,
+        "waterUseLitres": 5140,
+        "supplyAvailabilityIndex": 98
+      }
+    }
+  ]
+}
